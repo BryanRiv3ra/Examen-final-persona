@@ -1,1 +1,2 @@
 # Personas
+he usado la estetica de persona para este trabajao basandome en varios ejercicios anteriors y apoyandome en videos de diferentes plataformas usando 3 formularios con la estetica de los juegos antes mencionados usando try catcj para obtener los errores y varias funciones que tuve que buscar para hacerlas funcionar en mi codgigo, asi a pesar de no ser un formulario tan pulido pienso yo hace su funcion para lo que yo queria conseguir.
