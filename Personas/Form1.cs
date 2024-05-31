@@ -11,6 +11,7 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace Personas
 {
@@ -19,6 +20,9 @@ namespace Personas
         public Form1()
         {
             InitializeComponent();
+            SoundPlayer Sonido = new SoundPlayer();
+            Sonido.SoundLocation = "C:/Users/bryan/Downloads/y2mate.com-Aria-of-the-Soul-Persona-3-Reload-OST.wav";
+            Sonido.Play();
         }
         private void buttonEmpezar_Click(object sender, EventArgs e)
         {

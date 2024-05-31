@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 using Personas.Model;
+using System.Media;
 
 namespace Personas
 {
@@ -22,7 +23,9 @@ namespace Personas
         public Form2()
         {
             InitializeComponent();
-
+            SoundPlayer Sonido = new SoundPlayer();
+            Sonido.SoundLocation = "C:/Users/bryan/Downloads/y2mate.com-Persona-5-OST-Beneath-the-Mask-rain.wav";
+            Sonido.Play(); 
         }
 
         private void buttonVerconfidentes_Click(object sender, EventArgs e)
